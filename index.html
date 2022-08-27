@@ -1,0 +1,144 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <img src="/Images/spotify_logo.png" alt="spotify_logo">
+            <h1>Sign up for free to start listening. </h1>
+
+            <button class="facebook"><span><img src="/Images/facebook_icon.svg" alt="facebook_icon"></span>
+                <p>Sign up with Facebook</p>
+            </button>
+            <button class="google"><span><img src="/Images/google__logo.png" alt="google__logo"></span>
+                <p>Sign up with Google</p>
+            </button>
+
+            <span>
+                or
+            </span>
+        </div>
+        <form class="form">
+            <div class="input">
+                <label for="what's your emial?">What's your emial?</label>
+                <input type="email" placeholder="Enter your email.">
+                <p class="phone__no">Use phone number instead.</p>
+
+            </div>
+            <div class="input">
+                <label for="Confirm your email">Confirm your email</label>
+                <input type="email" placeholder="Enter your email again.">
+            </div>
+            <div class="input">
+                <label for="Create a password">Create a password</label>
+                <input type="password" placeholder="Create your password.">
+            </div>
+            <div class="input">
+                <label for="What shoud we call you?">What shoud we call you?</label>
+                <input type="text" placeholder="Enter a profile name.">
+                <p class="profile__preview">This appears on your profile.</p>
+            </div>
+            <div class="dob">
+                <h5 class="label dob__label">What's your date of birth?</h5>
+                <div class="dob__contents">
+                    <div class="content__section">
+                        <p>Day</p>
+                        <input type="number" min="01" max="31" placeholder="DD">
+                    </div>
+                    <div class="content__section">
+                        <div class="label_name">
+                            <p>Month</p>
+                            <p>Year</p>
+                        </div>
+                        <input type="month" placeholder="Month">
+                    </div>
+                </div>
+            </div>
+
+            <div class="gender">
+                <h6 class="label gender__label">What's your gender?</h6>
+
+                <div class="gender__selection">
+
+                    <div class="male">
+                        <input type="radio" id="male" name="gender" value="Male">
+                        <label for="male">Male</label>
+                    </div>
+
+                    <div class="female">
+                        <input type="radio" id="female" name="gender" value="Female">
+                        <label for="female">Female</label>
+                    </div>
+                    <div class="nonbinary">
+                        <input type="radio" id="non_binary" name="gender" value="non_binary">
+                        <label for="non_binary">Non-binary</label>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- MARKETING  -->
+            <div class="marketing">
+                <div class="marketing__message">
+                    <span><input type="checkbox"></span>
+                    <p>I would prefer not to receive marketing messages from Spotify.</p>
+                </div>
+                <div class="marketing__purpose purpose">
+                    <span><input type="checkbox"></span>
+                    <p>Share my registration data with Spotify's content provides for marketing purposes.</p>
+                </div>
+            </div>
+
+            <div class="captcha__container">
+
+                <!-- CAPTCHA  -->
+                <div class="captcha">
+                    <div class="captcha__box">
+                        <input type="checkbox">
+                        <p>I'm not a robot</p>
+                    </div>
+                    <div class="recaptcha">
+                        <img src="/Images/captcha.png" alt="">
+                        <p class="recaptcha__text">reCAPTCHA</p>
+                        <p class="recaptcha__policy">Privacy - Terms</p>
+                    </div>
+                </div>
+
+                <div class="signup__aggrement">
+                    <p>By clicking on sign-up, you agree to Spotify's <span>Terms and Conditions of Use.</span></p>
+                </div>
+
+                <div class="user__data">
+                    <p>To learn more about how Spotify collects, uses, shares and protect yoruu presonal data, plese see
+                        <span>Spotify's Privacy Policy.</span>
+                    </p>
+                </div>
+
+                <div class="signup__btn">
+                    <button>
+                        Sign up
+                    </button>
+                </div>
+
+                <div class="existing__user">
+
+                    <p>Have an account? <span>Log in</span>.</p>
+                </div>
+        </form>
+    </div>
+</div>
+    <div class="fixed__captcha">
+            <img src="/Images/captcha.png" alt="">
+            <p>Privacy - Terms</p>
+    </div>
+</body>
+
+</html>
